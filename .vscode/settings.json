@@ -1,0 +1,13 @@
+{
+  "C_Cpp.default.compilerPath": "\\\\wsl.localhost\\Ubuntu\\usr\\bin\\g++",
+  "terminal.integrated.useWslProfiles": true,
+  "code-runner.runInTerminal": true,
+  "files.associations": {
+    "": ".html",
+    "iostream": "cpp"
+  },
+  "code-runner.executorMap": {
+    "cpp": "mkdir -p trash && g++ \"$fileName\" -o \"trash/$fileNameWithoutExt\" && \"trash/$fileNameWithoutExt\""
+}
+
+}
