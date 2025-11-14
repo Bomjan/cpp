@@ -36,12 +36,12 @@ double determinant(Mat matrix) {
         // Build minor (n-1)x(n-1)
         Mat minor(n-1, Vec(n-1));
         for (int r = 1; r < n; r++) {
-            int cIdx = 0;
-            for (int c = 0; c < n; c++) {
-                if (c == j) continue;         
-                minor[r-1][cIdx] = matrix[r][c];
-                cIdx++;
-            }
+          int cIdx = 0;
+          for (int c = 0; c < n; c++) {
+            if (c == j) continue;         
+            minor[r-1][cIdx] = matrix[r][c];
+            cIdx++;
+          }
         }
 
         double sign = (j % 2 == 0) ? 1 : -1;
