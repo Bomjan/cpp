@@ -52,7 +52,6 @@ double determinant(Mat matrix) {
     return det;
 }
 
-
 Mat generateMatrix(){
 
   srand(time(0));
