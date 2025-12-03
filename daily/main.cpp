@@ -15,7 +15,7 @@ int main(){
   ivec arr = {};
   for (int i = 0; i < 3; i++){
     double num;
-    cout << "Enter number ";
+    cout << "Enter numbers ";
     cin >> num;
     arr.push_back(num);
   }
